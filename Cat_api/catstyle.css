@@ -1,0 +1,83 @@
+/* Styling for the html page.*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+
+
+    background-color: whitesmoke;
+    background-image:url("../Cat_api/background.jpg");
+    Background-repeat:no repeat;
+    background-attachment: fixed;
+    background-blend-mode:multiply;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+
+h1{ color: #990033;
+    font-size: 26px;
+    font-weight:bold;
+    font-style: italic ;
+    line-height: normal;
+    line-break: auto;
+    padding: 30px;
+    margin-top:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+
+
+h2{ color: #990033;
+    font-size: 15px;
+    font-weight:bold;
+    font-style: italic ;
+    line-height: normal;
+    line-break: auto;
+    padding: 30px;
+    margin-top:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+table {
+  width: 100%;
+  height:100%
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+th {
+  height: 70px;
+}
+
+
+table, th, td {
+  border: 1px solid;
+}
+ p{
+    color: #990033;
+    font-size: 13px;
+    font-weight:bold;
+    font-style: italic ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  width: 300px;
+}
+
+

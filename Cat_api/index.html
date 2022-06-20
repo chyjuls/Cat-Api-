@@ -1,0 +1,49 @@
+
+<!-- create an html page and insert the javascript file... -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="catstyle.css" type="text/css">
+    <link rel="shortcut icon" href="#">
+    <title>Cat Data</title>
+</head>
+<body>
+
+
+		<h1> My Cat Api Data</h1>
+	<h2>This is data for the Bengal cat.This data was extracted from
+		<a href=" https://thecatapi.com/ ">The cat api.</a>
+	</h2>
+
+<!-- create a table to hold the items from the dictionary created from the extracted data -->
+    <table>
+	      <thead>
+	         <tr>
+	            <th>ID</th>
+	            <th>Name</th>
+	            <th>Origin</th>
+	            <th>Description</th>
+	            <th>Temperament</th>
+				 <th>Cfa_url</th>
+	         </tr>
+	      </thead>
+	      <tbody id="data-output">
+	         <!-- data from javascript file in here. -->
+	      </tbody>
+	   </table>
+		<!-- javascript file here -->
+    <script src="cat_api.js"></script>
+
+<br><br><br>
+<div class = "p">
+	<p> Below is an image of a bengal cat..</p>
+</div>
+
+<img src="mybengal.jpg" alt= "The bengal cat">
+</body>
+
+</html>
